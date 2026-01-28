@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Image Deraining Research Hub
-description: A systematic review and implementation of de-raining algorithms.
+description: 
 ---
 # Image-Deraining 🌧️ ➡️ ☀️
 
@@ -16,7 +16,6 @@ description: A systematic review and implementation of de-raining algorithms.
 
 This repository tracks the evolution of Image Deraining algorithms. I aim to provide clear summaries and reproducible code for the community.
 
----
 
 ## 📂 核心内容 | Key Features
 * **Paper Summaries:** 核心论文的精读笔记（重点关注创新点与损失函数设计）。
@@ -43,3 +42,4 @@ This repository tracks the evolution of Image Deraining algorithms. I aim to pro
 本项目基于 **MIT License** 开源。这意味着你可以自由地使用、复制、修改和分发本项目的代码与笔记，只需在副本中包含原始版权声明即可。
 
 Distributed under the MIT License. See `LICENSE` for more information.  
+---
