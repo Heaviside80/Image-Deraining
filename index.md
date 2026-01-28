@@ -1,3 +1,8 @@
+---
+layout: default
+title: Image Deraining Research Hub
+description: A systematic review and implementation of de-raining algorithms.
+---
 # Image-Deraining 🌧️ ➡️ ☀️
 
 > **A collection of research papers, implementation notes, and benchmarks for Image Deraining.**
