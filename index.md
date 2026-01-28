@@ -11,8 +11,14 @@ description: 记录图像去雨领域的科研进展、复现笔记与性能评�
 
 ## 🌟 视觉对比 (Results Preview)
 
-<iframe frameborder="0" class="juxtapose" width="100%" height="450" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=8390b168-dd96-11ee-b693-b51909e4c3a3"></iframe>
+---
+layout: default
+title: Image-Deraining 测试
+---
 
+# 效果测试
+
+<iframe frameborder="0" class="juxtapose" width="100%" height="450" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=8390b168-dd96-11ee-b693-b51909e4c3a3"></iframe>
 > **说明**：左侧为原始雨图，右侧为算法去雨后的效果。你可以左右拖动中间的滑杆进行对比。
 
 ## 📖 项目简介
