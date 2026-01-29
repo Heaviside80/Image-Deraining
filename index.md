@@ -23,7 +23,57 @@ description: 记录图像去雨领域的科研进展、复现笔记与性能评�
 ## 🚀 交互式去雨效果对比 (Interactive Slider)
 
 
-<iframe frameborder="0" class="juxtapose" width="100%" height="500" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=8390b168-dd96-11ee-b693-b51909e4c3a3&location=https://github.com/Heaviside80/Image-Deraining/raw/main/assets/images.jpeg&location2=https://github.com/Heaviside80/Image-Deraining/raw/main/assets/treasure.png&label1=Rainy&label2=Derained"></iframe>
+<style>
+  .comparison-slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+    cursor: ew-resize;
+  }
+  .comparison-slider img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* 初始显示比例 */
+    height: 100%;
+    overflow: hidden;
+    border-right: 3px solid white;
+    z-index: 2;
+  }
+  .overlay-image img {
+    width: 800px; /* 必须与父容器 max-width 一致 */
+    height: auto;
+  }
+</style>
+
+<div class="comparison-slider" onmousemove="moveSlider(event)" ontouchmove="moveSlider(event)">
+  <img src="./assets/treasure.png" alt="After">
+  
+  <div class="overlay-image" id="slider-overlay">
+    <img src="./assets/images.jpeg" alt="Before">
+  </div>
+</div>
+
+<script>
+  function moveSlider(e) {
+    const slider = document.getElementById('slider-overlay');
+    const container = slider.parentElement;
+    const rect = container.getBoundingClientRect();
+    let x = (e.pageX || e.touches[0].pageX) - rect.left;
+    if (x < 0) x = 0;
+    if (x > rect.width) x = rect.width;
+    slider.style.width = (x / rect.width * 100) + '%';
+  }
+</script>
+
+<p align="center"><i>左右移动鼠标查看去雨前后对比</i></p>
 
 
 ## 📖 项目简介
