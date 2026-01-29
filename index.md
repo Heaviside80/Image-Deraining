@@ -12,8 +12,8 @@ description: 记录图像去雨领域的科研进展、复现笔记与性能评�
 ## 🖼️ 实验结果展示 (Results Preview)
 
 <p align="center">
-  <img src="./assets/images.jpeg" width="45%" title="Input Rainy Image">
-  <img src="./assets/treasure.png" width="45%" title="Derained Result">
+  <img src="./assets/images.jpeg" width="45%" width="400" height="300" style="object-fit: cover title="Input Rainy Image">
+  <img src="./assets/treasure.png" width="45%" width="400" height="300" style="object-fit: cover title="Derained Result">
 </p>
 <p align="center">
   <b>左图：原始雨图 | 右图：去雨结果</b>
