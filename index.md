@@ -54,7 +54,7 @@ description: 记录图像去雨领域的科研进展、复现笔记与性能评�
 </style>
 
 <div class="comparison-slider" onmousemove="moveSlider(event)" ontouchmove="moveSlider(event)">
-  <img src="./assets/treasure.png" alt="After">
+  <img src="./assets/images.jpeg" alt="After">
   
   <div class="overlay-image" id="slider-overlay">
     <img src="./assets/images.jpeg" alt="Before">
