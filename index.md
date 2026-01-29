@@ -18,7 +18,7 @@ description: 记录图像去雨领域的科研进展、复现笔记与性能评�
 <p align="center">
   <b>左图：原始雨图 | 右图：去雨结果</b>
 </p>
-
+<iframe frameborder="0" class="juxtapose" width="100%" height="null" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=129f4cfe-fcb9-11f0-ba1b-0e6f42328d7d"></iframe>
 ## 📖 项目简介
 本项目致力于构建一个系统化的图像去雨学习路径。我们不仅关注传统的物理模型，更紧跟深度学习前沿（CNN, Transformer, Mamba）。
 
