@@ -1,5 +1,9 @@
 ---
 layout: default
+---
+
+---
+layout: default
 title: Image-Deraining 研究主页
 description: 记录图像去雨领域的科研进展、复现笔记与性能评测。
 ---
@@ -12,13 +16,16 @@ description: 记录图像去雨领域的科研进展、复现笔记与性能评�
 ## 🖼️ 实验结果展示 (Results Preview)
 
 <p align="center">
-  <img src="./assets/images.jpeg" width="45%" style="aspect-ratio: 4/3; object-fit: cover;" title="Input Rainy Image">
-  <img src="./assets/treasure.png" width="45%" style="aspect-ratio: 4/3; object-fit: cover;" title="Derained Result">
+  <img src="https://github.com/Heaviside80/Image-Deraining/raw/main/assets/images.jpeg" width="45%" title="Input Rainy Image">
+  <img src="https://github.com/Heaviside80/Image-Deraining/raw/main/assets/treasure.png" width="45%" title="Derained Result">
 </p>
 
-<p align="center">
-  <b>左图：原始雨图 | 右图：去雨结果</b>
-</p>
+## 🚀 交互式去雨效果对比 (Interactive Slider)
+
+
+<iframe frameborder="0" class="juxtapose" width="100%" height="500" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=8390b168-dd96-11ee-b693-b51909e4c3a3&location=https://github.com/Heaviside80/Image-Deraining/raw/main/assets/images.jpeg&location2=https://github.com/Heaviside80/Image-Deraining/raw/main/assets/treasure.png&label1=Rainy&label2=Derained"></iframe>
+
+
 ## 📖 项目简介
 本项目致力于构建一个系统化的图像去雨学习路径。我们不仅关注传统的物理模型，更紧跟深度学习前沿（CNN, Transformer, Mamba）。
 
