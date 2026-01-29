@@ -17,7 +17,7 @@ description: 记录图像去雨领域的科研进展、复现笔记与性能评�
 
 <p align="center">
   <img src="https://github.com/Heaviside80/Image-Deraining/raw/main/assets/images.jpeg" width="45%" title="Input Rainy Image">
-  <img src="https://github.com/Heaviside80/Image-Deraining/raw/main/assets/treasure.png" width="45%" title="Derained Result">
+  <img src="https://github.com/Heaviside80/Image-Deraining/raw/main/assets/images.jpeg" width="45%" title="Derained Result">
 </p>
 
 ## 🚀 交互式去雨效果对比 (Interactive Slider)
