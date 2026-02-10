@@ -10,7 +10,7 @@
 ## 📅 阅读进度
 | 日期 | 论文 | 方向 | 代码 | 笔记 |
 | :--- | :--- | :--- | :--- | :--- |
-| 2026-01-30 | SwinIR (ICCV 2021) | 超分辨率 | [Link](...) | [📝 点击阅读](./Papers/super-resolution/swinir_2021.md) |
+| 2026-01-30 | SwinIR (ICCV 2021) | 超分辨率 | [Link](...) | [📝 点击阅读](./super-resolution/swinir_2021.md) |
 | 2026-01-31 | Restormer (CVPR 2022) | 去噪/去雨 | [Link](...) | [📝 待更新] |
 
 
